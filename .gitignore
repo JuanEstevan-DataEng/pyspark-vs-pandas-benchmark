@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+spark-warehouse/
+.DS_Store
+Thumbs.db

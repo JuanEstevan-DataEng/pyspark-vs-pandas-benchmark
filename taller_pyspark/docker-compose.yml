@@ -1,0 +1,7 @@
+services:
+  pyspark-app:
+    build: .
+    image: pyspark-app
+    volumes:
+      - .:/app
+    command: python3 main.py
